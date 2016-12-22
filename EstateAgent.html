@@ -1,0 +1,111 @@
+	<!doctype html>
+	<html>
+	<head><!--Start of the head tag --> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title>Estate Agent Client-side Web Application</title>
+	<!--CSS files -->
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+	<link rel="stylesheet" href="./css/style2.css" />
+	
+	</head><!--End of the head tag -->
+
+	<body><!--Start of the body tag -->
+	<nav class="nav"> <!--Navigation bar -->
+		<ul>
+			<li><a href="Landing.html">Home</a></li>
+			<li><a href="EstateAgent.html">Properties</a></li>
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+	<div id="shadow"><!--Background shadow -->
+		<h3>Search Properties: </h3>
+			  <!--Select menu for the property type-->
+	<label for="type">Property type:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="prop" id="prop">
+	<option selected="selected">Any</option>
+	<option>House</option>
+	<option>Flat</option>
+	
+	</select>
+	          
+	           
+	            <br><br>
+	            <!--Select menu for the number of bedrooms -->
+	            	 <label for="beds">Bedrooms:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="beds" id="beds">
+	<option selected="selected">No Rooms</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	</select>
+	 <br><br>
+	 			<!--Select menu for the price -->
+	 <label for="price"> Price(&#163;): </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <select name = "price" id="price">
+	 <option selected="selected">No Price </option>
+	<option value="50000">50,000</option>
+	<option value="60000">60,000</option>
+	<option value="70000">70,000</option>
+	<option value="80000">80,000</option>
+	<option value="90000">90,000</option>
+	<option value="100000">100,000</option>
+	<option value="150000">150,000</option>
+	<option value="200000">200,000</option>
+	<option value="250000">250,000</option>
+	<option value="300000">300,000</option>
+	<option value="350000">350,000</option>
+	<option value="400000">400,000</option>
+	<option value="450000">450,000</option>
+	<option value="500000">500,000</option>
+	<option value="550000">550,000</option>
+	<option value="600000">600,000</option>
+	<option value="650000">650,000</option>
+	<option value="700000">700,000</option>
+	<option value="750000">750,000</option>
+	<option value="800000">800,000</option>
+	<option value="850000">850,000</option>
+	<option value="900000">900,000</option>
+	</select>
+	<br><br>
+				<!--Select menu for date added -->
+	<label for="time">Date Added:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="time" id="time">
+				<!-- Select menu for the months -->
+	 <option selected="selected">Month </option>
+	<option>January</option>
+	<option>February</option>
+	<option>March</option>
+	<option>April</option>
+	<option>May</option>
+	<option>June</option>
+	<option>July</option>
+	<option>August</option>
+	<option>September</option>
+	<option>October</option>
+	<option>November</option>
+	<option>December</option>
+	</select>
+	<br><br><!--Search button -->
+	 <input type="button" value="Search " id="Search">
+	 <br><br><!--View favourite property button -->
+	 <input type="button" value = "View Favourites" id = "View"> 
+	  <br><br>
+
+		<div id="placeholder"></div><!--Placeholder id which is returned in the JavaScript -->
+
+	</div>	
+<!--JavaScript file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="EstateAgent.js" ></script>
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/jquery-validate/assets/js/jquery.validate.min.js"></script>
+<script src="./js/script.js"></script>
+	</body><!--End of body tag -->
+</html>

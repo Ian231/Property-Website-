@@ -1,0 +1,207 @@
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+}
+.text{
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+#shadow {
+    width: 1100px;
+    height: 2100px;
+    margin: 10px auto;
+    padding: 5px;
+    background: #eeeeee;
+    border-radius: 10px;
+} 
+  
+nav {
+	height: 40px;
+	width: 100%;
+	background: #27202c;
+	font-size: 11pt;
+	font-family:'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 2px solid #27202c;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 600px;
+	height: 40px;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0px #27202c;
+}
+nav li a {
+	border-right: 1px solid #27202c;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+nav a:hover, nav a:active {
+	background-color: #222222;
+	text-decoration: none;
+}
+nav a#pull {
+	display: none;
+}
+
+/*Responsive for screen 510px and lower*/
+@media screen and (max-width: 510px) {
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  		display: block;
+		float: none;
+		
+  	}
+  	nav li a {
+		border-bottom: 1px solid #27202c;
+		
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+  		nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #27202c;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url(../img/nav-icon.png) no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+
+}
+
+
+
+/*Responsive design for the navigation bar*/
+@media only screen and (max-width : 320px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: 1px solid #27202c;
+	}
+	#shadow{
+	width: 250px;
+    height: 3000px;
+    margin: 5px auto;
+    padding: 2px;
+    background: #eeeeee;
+    border-radius: 5px;
+	}
+}
+
+
+ @media (max-width: 767px) {
+ 	h3 {
+ 		font-size: 24px;
+ 	}
+
+ 	
+ }
+
+ @media (max-width: 420px) {
+ 	h1 {
+ 		font-size: 18px;
+ 	}
+ 	#shadow{
+	width: 350px;
+    height: 3000px;
+    margin: 5px auto;
+    padding: 2px;
+    background: #eeeeee;
+    border-radius: 5px;
+	}
+ }
+
+/* Responsive design of whole page*/
+@media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+	
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.btn-style{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	#subscribe {
+		float: right;
+		margin-top: 5px;
+		padding: 8px 25px;
+	}
+
+	.heading {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.heading-center{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.description {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.theme h1 {
+		font-size: 30px;
+	}
+	.theme p{
+		font-size: 15px;
+	}
+	#shadow{
+		padding: 0;
+	}
+}
+
+
+

@@ -1,0 +1,118 @@
+{ "properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":650000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington",
+			"picture":"img/image/prop1pic1small.jpg",
+			"url":"prop1.html",
+            "added": {
+                "month":"January",
+                "day":12,
+                "year":2014
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":300000,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat.The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"img/image/prop2pic1small.jpg",
+			"url":"prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2014
+            }
+        },
+        {
+            "id":"prop3",
+            "type":"House",
+            "bedrooms":4,
+            "price":700000,
+            "tenure":"Freehold",
+            "description":"A well-presented semi-detached family home situated on this popular road in Colindale. The property has been altered from its original design and now offers spacious family accommodation over three floors. Benefits include a well-designed kitchen and access to the garage via a shared driveway. ",
+            "location":"Rushgrove Avenue, COLINDALE, NW9 6RG",
+            "picture":"img/image/prop3pic1.jpg",
+            "url":"prop3.html",
+            "added": {
+                "month":"May",
+                "day":1,
+                "year":2014
+            }
+        },
+        {
+            "id":"prop4",
+            "type":"Flat",
+            "bedrooms":1,
+            "price":90000,
+            "tenure":"Leasehold",
+            "description":"Maxwell Estates are delighted to offer to the market this one bedroom second floor flat with a share of freehold. The property comprises of a living room, kitchen, bedroom and a bathroom. Conveniently located within 5 minutes walking distance of Colindale tube station... ",
+            "location":"Love Lambeth Black Prince Road, Sancroft Street, SE11",
+            "picture":"img/image/prop4pic1small.jpg",
+            "url":"prop4.html",
+            "added": {
+                "month":"February",
+                "day":20,
+                "year":2014
+            }
+         },
+         {
+            "id":"prop5",
+            "type":"Flat",
+            "bedrooms":1,
+            "price":60000,
+            "tenure":"Leasehold",
+            "description":"This one bedroom ground floor retirement apartment located within a short walk of Witham's town centre and mainline railway station. The property has the added benefit of being offered to the market with no onward chain. ",
+            "location":"Guithavon Street, Witham",
+            "picture":"img/image/prop5pic1small.jpg",
+            "url":"prop5.html",
+            "added": {
+                "month":"February",
+                "day":9,
+                "year":2014
+            }
+        },
+        {
+            "id":"prop6",
+            "type":"House",
+            "bedrooms":5,
+            "price":900000,
+            "tenure":"Freehold",
+            "description":"Situated on a prominent corner plot this attractive imposing chalet style property with secluded gardens to the front and back. Located centrally between Locksbottom and Orpington this family home within 0.6 of a mile from, Crofton Junior, Darrick Wood Schools and Orpington Station. ",
+            "location":"Crofton Road Orpington BR6",
+            "picture":"img/image/prop6pic1small.jpg",
+            "url":"prop6.html",
+            "added": {
+                "month":"April",
+                "day":4,
+                "year":2014
+            }
+
+        },
+        {
+            "id":"prop7",
+            "type":"House",
+            "bedrooms":3,
+            "price":600000,
+            "tenure":"Freehold",
+            "description":"A 3 bed semi detached house in the highly desirable Cassiobury Park estate, with garage own drive. The property may have potential to extend, subject to planning permission. Some modernisation is now required. Available with no upper chain",
+            "location":"Parkside Drive, WATFORD, Hertfordshire",
+            "picture":"img/image/prop7pic1small.jpg",
+            "url":"prop7.html",
+            "added": {
+                "month":"July",
+                "day":22,
+                "year":2014
+            }
+
+        }
+        
+
+]}
